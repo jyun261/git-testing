@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	cmd := exec.Command("git", "checkout", "jin")
+	cmd := exec.Command("git", "commit", "-m", `"testing commits in go"`)
 	cmd.Run()
 }
