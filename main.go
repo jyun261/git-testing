@@ -9,5 +9,4 @@ func main() {
 	cmd := exec.Command("git", "merge", "jin")
 	cmd.Run()
 	fmt.Print("It worked!")
-	fmt.Print("git-patch testing")
 }
